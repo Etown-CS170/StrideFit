@@ -1,0 +1,2 @@
+"usestrict";
+
