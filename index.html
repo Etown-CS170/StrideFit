@@ -10,7 +10,7 @@
 <body>
     <!-- Header Section -->
     <header>
-        <h1 id="Title">StrideFit</h1>
+        <h1>StrideFit</h1>
         <nav>
             <ul>
                 <li><a href="#features">Features</a></li>
@@ -27,6 +27,7 @@
         <section id="intro">
             <h2>Welcome to StrideFit</h2>
             <p>Your personalized running guide, powered by real-time data integration with Strava. Track your progress, set goals, and get tailored plans that adapt to your journey.</p>
+            <button id="connect-strava">Connect with Strava</button>
         </section>
 
         <!-- Features Section -->
@@ -44,7 +45,19 @@
         <section id="plans">
             <h2>Custom Running Plans</h2>
             <p>Get a personalized running plan based on your fitness data and goals. Simply sync your Strava account, enter your details, and start training towards your next achievement.</p>
-            <button id="start-plan">Create My Plan</button>
+            <form id="plan-form">
+                <label for="fitness-level">Fitness Level:</label>
+                <select id="fitness-level" name="fitness-level" required>
+                    <option value="">Select your level</option>
+                    <option value="beginner">Beginner</option>
+                    <option value="intermediate">Intermediate</option>
+                    <option value="advanced">Advanced</option>
+                </select>
+                <label for="goal">Your Goal:</label>
+                <input type="text" id="goal" name="goal" placeholder="e.g., Run a marathon" required>
+                <button type="submit">Create My Plan</button>
+            </form>
+            <div id="plan-output"></div>
         </section>
 
         <!-- About Section -->
