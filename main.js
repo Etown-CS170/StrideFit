@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
     
             const data = await response.json();
-
+    
             if (data && data.choices && data.choices.length > 0) {
                 return data.choices[0].message.content;
             } else {
@@ -81,6 +81,7 @@ document.addEventListener('DOMContentLoaded', () => {
             return null;
         }
     }
+    
 
     function capitalizeFirstLetter(string) {
         return string.charAt(0).toUpperCase() + string.slice(1);
