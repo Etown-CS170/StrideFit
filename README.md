@@ -1,5 +1,5 @@
 # StrideFit
-This is a project for CS 170 that is a website that uses OpenAI API and Strava API to make a flexible running plan.
+This is a project for CS 170 that is a website that uses LM studios with llama-3.2-3b to generate a unique running schedule.
 
 ## Author
 -   Rein Alderfer
