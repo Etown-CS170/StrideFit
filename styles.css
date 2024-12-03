@@ -62,22 +62,6 @@ main {
     margin: 0 auto;
 }
 
-/* Connect with Strava Button */
-#connect-strava {
-    background-color: #fc4c02; /* Strava's brand color */
-    color: white;
-    border: none;
-    padding: 15px 30px;
-    font-size: 1.1em;
-    cursor: pointer;
-    border-radius: 4px;
-    margin-top: 20px;
-}
-
-#connect-strava:hover {
-    background-color: #e04301;
-}
-
 /* Features Section */
 #features {
     background-color: #fff;

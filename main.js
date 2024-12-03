@@ -3,12 +3,6 @@
 // main.js
 
 document.addEventListener('DOMContentLoaded', () => {
-    // Handle 'Connect with Strava' button click
-    const connectStravaButton = document.getElementById('connect-strava');
-    connectStravaButton.addEventListener('click', () => {
-        alert('Redirecting to Strava for authentication...');
-    });
-
     // Handle form submission
     const planForm = document.getElementById('plan-form');
     const planOutput = document.getElementById('plan-output');
@@ -65,7 +59,7 @@ document.addEventListener('DOMContentLoaded', () => {
             model: modelId,
             messages: [
                 { role: 'system', content: 'You are a running coach who creates custom training plans.' },
-                { role: 'user', content: `Create a running plan for a ${fitnessLevel} aiming to achieve "${goal}". Output the response in HTML format keeping the response brief with just a schedule.` },
+                { role: 'user', content: `Create a running plan for a ${fitnessLevel} aiming to achieve "${goal}". Output the response in HTML format ONLY! keeping the response brief with just a schedule.` },
             ],
             temperature: 0.7,
         });
