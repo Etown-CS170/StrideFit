@@ -1,3 +1,4 @@
+/* AI Generated Code except for the colors, I have changed the colors I will specify which ones below.
 /* General Styles */
 body {
     font-family: Arial, sans-serif;
@@ -144,25 +145,25 @@ main {
 /* Plan Output */
 #plan-output {
     margin-top: 20px;
-    background-color: #fff;
+    background-color: #fff; /* <-- Human written code */
     padding: 20px;
     border-radius: 8px;
     text-align: left;
     max-width: 600px;
     margin: 20px auto;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* <-- Human written code */
 }
 
 #plan-output h3 {
-    font-size: 1.5em;
-    color: #282c34;
-    margin-bottom: 10px;
+    font-size: 1.5em; /* <-- Human written code */
+    color: #282c34; /* <-- Human written code */
+    margin-bottom: 10px; /* <-- Human written code */
 }
 
 #plan-output p {
-    font-size: 1.2em;
-    color: #282c34;
-    margin-bottom: 10px;
+    font-size: 1.2em; /* <-- Human written code */
+    color: #282c34; /* <-- Human written code */
+    margin-bottom: 10px; /* <-- Human written code *//* <-- Human written code */
 }
 
 /* About Section */
@@ -246,20 +247,20 @@ footer a:hover {
 /* Plan Output Styles */
 #plan-output h3 {
     font-size: 1.8em;
-    color: #282c34;
-    margin-bottom: 15px;
+    color: #282c34; /* <-- Human written code */
+    margin-bottom: 15px; /* <-- Human written code */
 }
 
 #plan-output h4 {
     font-size: 1.5em;
-    color: #333;
+    color: #333; /* <-- Human written code */
     margin-top: 20px;
     margin-bottom: 10px;
 }
 
 #plan-output p {
     font-size: 1.1em;
-    color: #333;
+    color: #333; /* <-- Human written code */
     line-height: 1.5;
 }
 
@@ -280,7 +281,7 @@ footer a:hover {
 }
 
 #plan-output table, #plan-output th, #plan-output td {
-    border: 1px solid #0928af;
+    border: 1px solid #0928af; /* <-- Human written code */
 }
 
 #plan-output th, #plan-output td {
@@ -289,11 +290,11 @@ footer a:hover {
 }
 
 #plan-output tr:nth-child(even) {
-    background-color: #f9f9f9;
+    background-color: #f9f9f9; /* <-- Human written code */
 }
 
 #plan-output tr:hover {
-    background-color: #0852c1;
+    background-color: #0852c1; /* <-- Human written code */
 }
 
 /* Ensure the plan stays within the white box */

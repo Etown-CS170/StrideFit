@@ -1,3 +1,5 @@
+// AI Generated code below this unless otherwise specified
+
 "use strict";
 
 // main.js
@@ -48,6 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     async function generatePlan(fitnessLevel, goal) {
+        // Written by Rein Alderfer - I wrote the APIUrl from the documenation provided in LM Studio and bug tested by myself for the two lines below this. 
         const apiUrl = 'http://127.0.0.1:1234/v1/chat/completions';
         const modelId = 'llama-3.2-3b-instruct'; // Replace with your model ID
 
